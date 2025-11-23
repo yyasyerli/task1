@@ -9,7 +9,7 @@ class Solution {
             for (int j = i+1; j < nums.length; j++) {
                 if (nums[i]+nums[j] == target){
                     sum[0] = i;sum[1]=j;
-                    System.out.println("Çö züm: ["+i +","+ j+"]");
+                    System.out.println("Çözüm: ["+i +","+ j+"]");
                     break outerloop;
                 }
             }
